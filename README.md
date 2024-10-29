@@ -14,8 +14,5 @@ This repository contains a minimal setup for CRAB job submission. The python scr
 ```
 crab submit crab_config.py General.requestName=nanoRDF_Run2_2017_UL_Rare_THQ General.workArea=submitted Data.inputDataset=/THQ_ctcvcp_4f_Hincl_TuneCP5_13TeV_madgraph_pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v2/NANOAODSIM
 ```
-> **Note:** Parameters fed into `crab_config.py` from outside are 
-> -- `General.requestName`
-> -- `General.workArea`
-> -- `Data.inputDataset`
-> Rest of the parameters are same for all jobs, and are defined inside `crab_config.py`
+
+> **Note:** Parameters fed into `crab_config.py` from outside are `General.requestName`, `General.workArea` and `Data.inputDataset`. Rest of the parameters are same for all jobs and are defined inside `crab_config.py`.
