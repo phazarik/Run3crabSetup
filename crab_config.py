@@ -43,7 +43,7 @@ config.Data.splitting = 'FileBased'
 config.Data.unitsPerJob = 1  # Number of files per job
 config.Data.outLFNDirBase = '/store/user/phazarik/nanoRDFjobs' #Customize here according to your needs.
 config.Data.publication = False
-config.Data.outputDatasetTag = f'NanoRDF_{timestamp}'
+config.Data.outputDatasetTag = f'NanoRDF_2016postVFP_{timestamp}'
 
 ### Site:
 config.Site.storageSite = 'T2_IN_TIFR' #Customize here according to your needs.
